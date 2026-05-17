@@ -19,13 +19,13 @@ project:
   #   execute_notebooks: auto
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
-    - file: ./docs_v1/intro.md
-    - file: ./docs_v1/01_introduccion_3eso.ipynb
+    - file: ./docs/intro.md
+    - file: ./docs/01_introduccion_3eso.ipynb
     - title: 1. Datos
       children:
         - title: 1.1. Variables
           children:
-          - file: ./docs_v1/02_variables_3eso.ipynb
+          - file: ./docs/02_variables_3eso.ipynb
           - file: ./ejercicios/02_variables_ejercicios_3eso.ipynb
     #     - title: 1.2. Tipos de datos
     #       children:
