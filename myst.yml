@@ -15,7 +15,7 @@ project:
   execute:
     cache: true
     timeout: 120
-  language: gl
+  language: es
   #   execute_notebooks: auto
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
@@ -27,10 +27,10 @@ project:
           children:
           - file: ./docs/02_variables_3eso.ipynb
           - file: ./ejercicios/02_variables_ejercicios_3eso.ipynb
-    #     - title: 1.2. Tipos de datos
-    #       children:
-    #       - file: ./docs_v1/03_datos_new.ipynb
-    #       - file: ./ejercicios/03_datos_ejercicios_new.ipynb
+        - title: 1.2. Tipos de datos
+          children:
+          - file: ./docs/03_datos_3eso.ipynb
+          - file: ./ejercicios/03_datos_ejercicios_3eso.ipynb
     #     - title: 1.3. Operaciones matemáticas
     #       children:
     #       - file: ./docs_v1/04_matematicas_new.ipynb

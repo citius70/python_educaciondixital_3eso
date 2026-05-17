@@ -1,13 +1,13 @@
+
+# ¡Te doy la bienvenida a Python! 🐍
+
 ![Static Badge](https://img.shields.io/badge/Python-Educación_dixital-brightgreen?logo=python&logoColor=%23ffde4f)
  ![Static Badge](https://img.shields.io/badge/version-1.0-blue) ![Static Badge](https://img.shields.io/badge/por-Alberto_Dur%C3%A1n_P%C3%A9rez-chocolate)
 
-## ¡Te doy la bienvenida a Python! 🐍
 
 ¡Hola! En este curso vas a descubrir el mundo de la programación utilizando **Python**, uno de los lenguajes más populares del mundo (¡se usa para crear videojuegos, aplicaciones y hasta en la inteligencia artificial!). Lo mejor de Python es que es muy parecido a hablar en inglés, por lo que aprenderlo es como aprender a darle instrucciones sencillas a un robot.
 
----
-
-### ¿Qué vamos a descubrir juntos? 🚀
+## ¿Qué vamos a descubrir juntos? 🚀
 
 Para dominar este "idioma", exploraremos cuatro herramientas básicas:
 
