@@ -1,0 +1,65 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:
+  numbered: True
+parts:
+
+  - caption: 1. Introducción
+    chapters:
+      - file: docs_v1/01_0_introduccion_new.ipynb
+      
+  - caption: 2. Datos
+    chapters:
+      - file: 2_0_variables_tiposdatos.ipynb
+      - file: docs_v1/02_0_variables_new.ipynb
+        sections:
+          - file: ejercicios/2_1_variables_ejercicios_new.ipynb
+      - file: docs_v1/03_0_datos_new.ipynb
+        sections:
+          - file: ejercicios/3_0_datos_ejercicios_new.ipynb
+      - file: 3_0_matematicas.ipynb
+      - file: docs_v1/04_0_matematicas_new.ipynb
+        sections:
+          - file: ejercicios/4_1_matematicas_ejercicios_new.ipynb
+      - file: docs_v1/05_0_comentarios_new.ipynb
+
+  - caption: 3. Funciones básicas
+    chapters:
+      - file: 4_0_comentarios.ipynb
+        sections:
+          - file: 4_1_comentarios_ejercicios.ipynb
+      - file: 5_0_print.ipynb
+        sections:
+          - file: 5_1_print_ejercicios.ipynb
+      - file: 6_0_input.ipynb
+        sections:
+          - file: 6_1_input_ejercicios.ipynb
+      - file: 7_0_funciones.ipynb
+        sections:
+          - file: 7_1_funciones_ejercicios.ipynb
+
+  - caption: 4. Estructuras de control
+    chapters:
+      - file: 8_0_estructurascontrol.ipynb
+      - file: 9_0_if.ipynb
+        sections:
+          - file: 9_1_if_ejercicios.ipynb
+      - file: 10_0_bucles.ipynb
+        sections:
+          - file: 11_0_for.ipynb
+          - file: 11_1_for_ejercicios.ipynb
+          - file: 12_0_while.ipynb
+          - file: 12_1_while_ejercicios.ipynb
+
+  - caption: 5. Estructuras de datos
+    chapters:
+      - file: 13_0_estructurasdatos.ipynb
+      - file: 14_0_listas.ipynb
+        sections:
+          - file: 14_1_listas_ejercicios.ipynb
+      - file: 15_0_diccionarios.ipynb
+        sections:
+          - file: 15_1_diccionarios_ejercicios.ipynb

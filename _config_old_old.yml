@@ -1,0 +1,66 @@
+# Book settings
+title: "Python para TIC II"  # Título del libro
+author: "Alberto Durán Pérez"  # Autor del libro
+copyright: "2025"  # Año de copyright
+logo: logo.png  # Ruta al logo del libro
+only_build_toc_files: true  # Solo construir los archivos de la tabla de contenidos
+language: es  # Idioma principal del libro
+
+# Ejecución de notebooks
+execute:
+  execute_notebooks: auto  # Ejecutar notebooks solo cuando sea necesario
+
+# Configuración para la salida en formato LaTeX (PDF)
+latex:
+  latex_documents:
+    targetname: book.tex  # Nombre del archivo LaTeX para la salida en PDF
+
+# Botones de lanzamiento para plataformas interactivas
+launch_buttons:
+  notebook_interface: "classic"  # Interfaz clásica de Jupyter
+  binderhub_url: "https://mybinder.org"  # Enlace a Binder
+  colab_url: "https://colab.research.google.com"  # Enlace a Google Colab
+  deepnote_url: "https://deepnote.com"  # Enlace a Deepnote
+  thebe: true  # Habilitar la ejecución interactiva con Thebe
+
+# Bibliografía
+bibtex_bibfiles:
+  - references.bib  # Ruta al archivo BibTeX de referencias
+
+# Información sobre el repositorio
+repository:
+  url: https://github.com/citius70/curso_python_tic2.git/  # URL del repositorio en GitHub
+  branch: gh-pages  # Rama que se debe usar para crear los enlaces
+
+# Configuración de HTML
+html:
+  use_issues_button: true  # Mostrar el botón de "issues" en GitHub
+  use_repository_button: true  # Mostrar el botón de "ver en repositorio" en GitHub
+  use_edit_page_button: true  # Botón "editar esta página" en GitHub
+  use_multitoc_numbering: true  # Numeración continua en el índice (a través de partes/capítulos)
+  home_page_in_navbar: true  # Incluir la página principal en la barra de navegación
+  extra_navbar: ""  # Personalizar la barra de navegación (si es necesario)
+  extra_footer: ""  # Personalizar el pie de página (si es necesario)
+
+# Comentarios
+comments:
+  hypothesis: false  # Desactivar comentarios con Hypothesis
+  utterances: false  # Desactivar comentarios con Utterances
+  announcement: ""  # Mensaje de bienvenida o anuncio (deja vacío si no es necesario)
+
+# Configuración de Sphinx
+sphinx:
+  extra_extensions:
+    - sphinx_exercise  # Extensión para ejercicios interactivos
+  config:
+    language: es  # Idioma para Sphinx
+    locale_dirs: ["locale/"]  # Directorio para traducciones (útil para idiomas adicionales)
+    # Se han eliminado las líneas `incremental_build` y `always_document` para evitar warnings
+
+# Configuración de MyST
+myst:
+  enable_extensions:
+    - colon_fence  # Habilitar delimitadores de código con dos puntos (::)
+    - dollarmath  # Habilitar matemáticas con delimitadores $
+    - linkify  # Habilitar la conversión automática de URLs a hipervínculos
+    # Se pueden añadir más extensiones como `amsmath`, `codefolding`, etc.
