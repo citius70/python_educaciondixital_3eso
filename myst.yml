@@ -13,6 +13,7 @@ project:
   # keywords: []
   # authors: []
   execute:
+    execute_notebooks: force
     cache: true
     timeout: 120
   language: es
@@ -21,19 +22,19 @@ project:
   toc:
     - file: ./docs/intro.md
     - file: ./docs/01_introduccion_3eso.ipynb
-    - title: 1. Datos
+    - title: 1. DATOS
       children:
         - title: 1.1. Variables
           children:
           - file: ./docs/02_variables_3eso.ipynb
           - file: ./ejercicios/02_variables_ejercicios_3eso.ipynb
-    #    - title: 1.2. Tipos de datos
-    #      children:
-    #      - file: ./docs/03_datos_3eso.ipynb
-    #      - file: ./ejercicios/03_datos_ejercicios_3eso.ipynb
-    #     - title: 1.3. Operaciones matemáticas
-    #       children:
-    #       - file: ./docs_v1/04_matematicas_new.ipynb
+        - title: 1.2. Tipos de datos
+          children:
+          - file: ./docs/03_datos_3eso.ipynb
+          - file: ./ejercicios/03_datos_ejercicios_3eso.ipynb
+        - title: 1.3. Operaciones matemáticas
+          children:
+          - file: ./docs/04_matematicas_3eso.ipynb
     #       - file: ./ejercicios/04_matematicas_ejercicios_new.ipynb
     #     - title: 1.4. Comentarios
     #       children:
