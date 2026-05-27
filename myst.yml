@@ -8,7 +8,7 @@ project:
       affiliations:
         - Departamento de Tecnología
         - IES Frei Martín Sarmiento
-  # github:
+  github: https://citius70.github.io/python_educaciondixital_3eso/
   # description:
   # keywords: []
   # authors: []
@@ -103,4 +103,3 @@ site:
   options:
     folders: true
     style: ./_static/custom.css
-    
