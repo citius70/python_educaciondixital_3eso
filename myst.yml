@@ -46,10 +46,10 @@ project:
            children: 
            - file: ./docs/06_print_3eso.ipynb
            - file: ./ejercicios/06_print_ejercicios_3eso.ipynb
-        #  - title: 2.2. Función input()
-        #    children: 
-        #    - file: ./docs/07_input_3eso.ipynb
-        #    - file: ./ejercicios/07_input_ejercicios_3eso.ipynb
+         - title: 2.2. Función input()
+           children: 
+           - file: ./docs/07_input_3eso.ipynb
+           - file: ./ejercicios/07_input_ejercicios_3eso.ipynb
     # - title: 3. Estructuras de control
     #   children:
     #     - title: 3.1. Introducción a las estructuras de control
