@@ -84,7 +84,10 @@ project:
     #       - file: ./docs_v1/15_diccionarios_new.ipynb
     #       - file: ./ejercicios/15_diccionarios_ejercicios_new.ipynb
 
-    
+html:
+  extra_css:
+    - _static/custom.css
+
 site:
   template: book-theme
   # options:
@@ -93,9 +96,11 @@ site:
   design:
     #   theme: auto
     #   primary: #3b82f6
-      typography:
-          body: Georgia
-    #     headings: Poppins
-          code: "JetBrains Mono"
+    typography:
+      body: "Atkinson Hyperlegible"
+      headings: "Montserrat"
+      code: "JetBrains Mono"
   options:
     folders: true
+    style: ./_static/custom.css
+    
