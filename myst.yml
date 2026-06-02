@@ -55,17 +55,17 @@ project:
         - title: 3.1. Introducción a las estructuras de control
           children:
           - file: ./docs/08_estructurascontrol_3eso.ipynb
-        - title: 3.2. Condicionales
+        - title: 3.2. Condicionales if
           children:
           - file: ./docs/09_if_3eso.ipynb
           - file: ./ejercicios/09_if_ejercicios_3eso.ipynb
-    #     - title: 3.3. Bucles
-    #       children:
-    #       - file: ./docs_v1/10_bucles_new.ipynb
-    #       - title: 3.3.1. Bucles for  
-    #         children:
-    #         - file: ./docs_v1/11_for_new.ipynb
-    #         - file: ./ejercicios/11_for_ejercicios_new.ipynb
+        - title: 3.3. Bucles
+          children:
+          - file: ./docs/10_bucles_3eso.ipynb
+          - title: 3.3.1. Bucles for  
+            children:
+            - file: ./docs/11_buclefor_3eso.ipynb
+            - file: ./ejercicios/11_buclefor_ejercicios_3eso.ipynb
     #       - title: 3.3.2. Bucles while
     #         children:
     #         - file: ./docs_v1/12_while_new.ipynb
