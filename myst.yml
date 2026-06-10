@@ -79,10 +79,10 @@ project:
           children:
           - file: ./docs/14_listas_3eso.ipynb
           - file: ./ejercicios/14_listas_ejercicios_3eso.ipynb
-    #   - title: 4.3. Diccionarios
-    #       children:
-    #       - file: ./docs_v1/15_diccionarios_new.ipynb
-    #       - file: ./ejercicios/15_diccionarios_ejercicios_new.ipynb
+        - title: 4.3. Diccionarios
+          children:
+           - file: ./docs/15_diccionarios_3eso.ipynb
+           - file: ./ejercicios/15_diccionarios_ejercicios_facil_3eso.ipynb
 
 html:
   extra_css:
